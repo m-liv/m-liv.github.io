@@ -1,0 +1,54 @@
+/* style.css */
+
+:root {
+  --accent: #007acc; /* change this color if you want */
+  --bg: #f9f9f9;
+  --text: #333;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+nav a {
+  margin: 0 0.8rem;
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid var(--accent);
+}
+
+h1, h2 {
+  color: var(--accent);
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 3rem;
+}
