@@ -1,7 +1,7 @@
 /* style.css */
 
 :root {
-  --accent: #007acc; /* change this color if you want */
+  --accent: #3c3c80;
   --bg: #f9f9f9;
   --text: #333;
 }
@@ -40,6 +40,20 @@ nav a.active {
 
 h1, h2 {
   color: var(--accent);
+}
+
+h3 {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.profile-pic {
+  width: 150px;         /* adjust size */
+  height: 150px;
+  border-radius: 50%;   /* makes it circular */
+  object-fit: cover;    /* crops nicely */
+  margin: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 section {
