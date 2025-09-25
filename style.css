@@ -82,6 +82,11 @@ section {
   text-decoration: underline;
 }
 
+.project-date {
+  font-size: 0.95rem;
+  color: #666;
+}
+
 footer {
   text-align: center;
   font-size: 0.9rem;
