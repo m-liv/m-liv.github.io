@@ -2,6 +2,7 @@
 
 :root {
   --accent: #3c3c80;
+  --accent-light: #6a78c1;
   --bg: #f9f9f9;
   --text: #333;
 }
@@ -45,6 +46,8 @@ h1, h2 {
 h3 {
   color: #555;
   font-size: 1.1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .profile-pic {
@@ -58,6 +61,25 @@ h3 {
 
 section {
   margin-bottom: 2rem;
+}
+
+.project {
+  margin-bottom: 2.5rem;
+}
+
+.project-links {
+  margin-top: 1rem;     /* space above the links */
+}
+
+.project-links a {
+  margin-right: 1rem; /* space between links */
+  text-decoration: none;
+  color: var(--accent-light);
+  font-weight: 400;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
 }
 
 footer {
