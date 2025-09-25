@@ -2,7 +2,7 @@
 
 :root {
   --accent: #3c3c80;
-  --accent-light: #6a78c1;
+  --accent-light: #5c90de;
   --bg: #f9f9f9;
   --text: #333;
 }
@@ -48,6 +48,15 @@ h3 {
   font-size: 1.1rem;
   margin-bottom: 0;
   padding-bottom: 0;
+} 
+
+a {
+  color: var(--accent-light);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .profile-pic {
